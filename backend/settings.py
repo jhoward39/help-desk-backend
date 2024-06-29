@@ -48,8 +48,8 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Your Project API',
-    'DESCRIPTION': 'Your project description',
+    'TITLE': 'Zelp Desk API',
+    'DESCRIPTION': 'Project for zealthy!',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
 }

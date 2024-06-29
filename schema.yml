@@ -1,8 +1,8 @@
 openapi: 3.0.3
 info:
-  title: Your Project API
+  title: Zelp Desk API
   version: 1.0.0
-  description: Your project description
+  description: Project for zealthy!
 paths:
   /api/support-tickets/:
     get:
@@ -184,6 +184,9 @@ components:
           type: string
           format: date-time
           readOnly: true
+        reply:
+          type: string
+          nullable: true
     StatusEnum:
       enum:
       - NEW
@@ -219,6 +222,9 @@ components:
           type: string
           format: date-time
           readOnly: true
+        reply:
+          type: string
+          nullable: true
       required:
       - created_at
       - description
