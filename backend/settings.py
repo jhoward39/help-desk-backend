@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-4($ti=&cxpl4f=e3oga*(&%qe-uem1fp5qy9u0!vi3-d)c6!ii"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['zelpdeskapi.azurewebsites.net']
 
