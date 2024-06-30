@@ -15,5 +15,5 @@ class SupportTicketSerializer(serializers.ModelSerializer):
 # Viewsets
 
 class SupportTicketViewSet(viewsets.ModelViewSet):
-    queryset = SupportTicket.objects.all()
+    queryset = SupportTicket.objects.all().order_by('-updated_at')
     serializer_class = SupportTicketSerializer
